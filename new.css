@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  border: 0;
+}
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  overflow: hidden;
+}
+h1 {
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 3em;
+  color: #fff;
+  background-color: steelblue;
+}
+.letter {
+  padding: 40px;
+  font-size: 4em;
+  color: #fff;
+  background-color: steelblue;
+  display: inline-block;
+  margin-top: 80px;
+  text-transform: capitalize;
+  animation: anim 2s;
+  animation-fill-mode: forwards;
+}
+@keyframes anim {
+  0% {
+    opacity: 1;
+    transform: scale(0.5);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(6);
+  }
+}
